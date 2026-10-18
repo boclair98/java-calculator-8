@@ -33,3 +33,24 @@ out/
 
 ### Mac OS ###
 .DS_Store
+
+# Local credentials and generated private data
+.env
+.env.*
+!.env.example
+!.env.sample
+.coders/
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+uploads/
+.idea/
+.vscode/*.local.json
